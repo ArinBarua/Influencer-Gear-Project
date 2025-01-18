@@ -3,6 +3,19 @@ nav{
     justify-content: space-between;
 }
 
-li, a{
+ul{
     list-style: none;
+    overflow: hidden;
+}
+
+li a{
+    display: block;
+    list-style: none;
+    padding: 8px;
+    text-decoration: none;
+    text-align: center;
+}
+
+li{
+    float: right;
 }
