@@ -1,0 +1,8 @@
+nav{
+    display: flex;
+    justify-content: space-between;
+}
+
+li, a{
+    list-style: none;
+}
