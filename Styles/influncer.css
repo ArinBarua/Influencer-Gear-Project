@@ -333,3 +333,28 @@ image{
         border-bottom: 1px solid #3a3a3a2b;
     }
 }
+
+
+/* Popular Content */
+.popular-content{
+    margin: 80px 100px;
+}
+.popular-title{
+    text-align: center;
+    padding: 50px;
+}
+.full-popular{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    row-gap: 60px;
+}
+{
+    
+}
+.popular-title{
+    font-family: "Poppins", serif;
+    font-size: 24px;
+    font-weight: 600;
+    color: #3A3A3A;
+}
